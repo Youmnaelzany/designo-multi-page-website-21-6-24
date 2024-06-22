@@ -5,6 +5,25 @@ import Header from '../components/Header.astro';
 ---
 
 <Layout title='Designo Agency Website Challenge.'>
-  <Header/>
-  <main></main>
+  <Header />
+  <main class='relative'>
+    <section>
+      <img
+        src='/public/assets/shared/desktop/bg-pattern-leaf.svg'
+        alt='pattern'
+        class='absolute left-[-164px] top-[290px] hidden lg:flex'
+      />
+    </section>
+    <section class='overflow-hidden md:ml-[2.44rem] md:mr-10 lg:mx-[10.31rem]'>
+      <div
+        class='relative h-[52.6875rem] w-[23.4375rem] bg-[#E7816B] px-6 pt-20 md:h-[52.6875rem] md:w-[43.0625rem] md:rounded-[0.9375rem] md:px-[3.62rem] md:pt-[3.75rem] lg:h-[40rem] lg:w-[69.4375rem] lg:px-[5.94rem] lg:py-[9.06rem]'
+      >
+        <img
+          src='/public/assets/home/desktop/bg-pattern-hero-home.svg'
+          alt=''
+          class='absolute left-0 z-50 md:right-[-132px] md:top-[66px] lg:right-0 lg:top-0'
+        />
+      </div>
+    </section>
+  </main>
 </Layout>
