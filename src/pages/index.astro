@@ -9,21 +9,51 @@ import Header from '../components/Header.astro';
   <main class='relative'>
     <section>
       <img
-        src='/public/assets/shared/desktop/bg-pattern-leaf.svg'
+        src='/assets/shared/desktop/bg-pattern-leaf.svg'
         alt='pattern'
         class='absolute left-[-164px] top-[290px] hidden lg:flex'
       />
     </section>
-    <section class='overflow-hidden md:ml-[2.44rem] md:mr-10 lg:mx-[10.31rem]'>
+    <section
+      class='h-[52.6875rem] w-[23.4375rem] rounded-[0.9375rem] bg-[#E7816B] px-6 pt-20 md:ml-[2.44rem] md:mr-10 md:h-[52.6875rem] md:w-[43.0625rem] md:px-[3.62rem] md:pt-[3.75rem] lg:mx-[10.31rem] lg:h-[40rem] lg:w-[69.4375rem] lg:px-[5.94rem] lg:py-[9.06rem]'
+    >
+      <img
+        src='/assets/home/desktop/bg-pattern-hero-home.svg'
+        alt=''
+        class='heroPattern absolute left-0 top-0 z-40 max-w-[40rem]'
+      />
       <div
-        class='relative h-[52.6875rem] w-[23.4375rem] bg-[#E7816B] px-6 pt-20 md:h-[52.6875rem] md:w-[43.0625rem] md:rounded-[0.9375rem] md:px-[3.62rem] md:pt-[3.75rem] lg:h-[40rem] lg:w-[69.4375rem] lg:px-[5.94rem] lg:py-[9.06rem]'
+        class='flex flex-col items-center justify-center text-center lg:items-start lg:justify-start lg:text-left'
       >
+        <h1
+          class='w-[20.4375rem] text-[2rem] font-medium leading-10 text-white md:w-[35.8125rem] md:text-5xl md:leading-[3rem] lg:w-[33.75rem]'
+        >
+          Award-winning custom designs and digital branding solutions
+        </h1>
+
+        <p
+          class='w-[20.4375rem] text-[0.9375rem] font-normal leading-[1.5625rem] text-white md:w-[27.8125rem] md:text-base md:leading-relaxed lg:w-[27.8125rem]'
+        >
+          With over 10 years in the industry, we are experienced in creating
+          fully responsive websites, app design, and engaging brand experiences.
+          Find out more about our services.
+        </p>
+
+        <button
+          type='button'
+          class='h-14 w-[9.5rem] rounded-lg bg-white text-[0.9375rem] font-medium uppercase leading-normal tracking-[0.0625rem] text-[#333136]'
+          >Learn more</button
+        >
+      </div>
+      <div class=''>
         <img
-          src='/public/assets/home/desktop/bg-pattern-hero-home.svg'
+          src='/public/assets/home/desktop/image-hero-phone.png'
           alt=''
-          class='absolute left-0 z-50 md:right-[-132px] md:top-[66px] lg:right-0 lg:top-0'
+          class=''
         />
       </div>
     </section>
   </main>
 </Layout>
+
+<style></style>
